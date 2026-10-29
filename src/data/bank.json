@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "word": "deseo",
+    "syllables": ["de", "se", "o"],
+    "distractor": "nu"
+  },
+  {
+    "id": 2,
+    "word": "marino",
+    "syllables": ["ma", "ri", "no"],
+    "distractor": "nu"
+  },
+  {
+    "id": 3,
+    "word": "planeta",
+    "syllables": ["pla", "ne", "ta"],
+    "distractor": "so"
+  },
+  {
+    "id": 4,
+    "word": "molino",
+    "syllables": ["mo", "li", "no"],
+    "distractor": "los"
+  },
+  {
+    "id": 5,
+    "word": "coraza",
+    "syllables": ["co", "ra", "za"],
+    "distractor": "va"
+  },
+  {
+    "id": 6,
+    "word": "conejo",
+    "syllables": ["co", "ne", "jo"],
+    "distractor": "bo"
+  },
+  {
+    "id": 7,
+    "word": "camino",
+    "syllables": ["ca", "mi", "no"],
+    "distractor": "su"
+  },
+  {
+    "id": 8,
+    "word": "ventana",
+    "syllables": ["ven", "ta", "na"],
+    "distractor": "mo"
+  },
+  {
+    "id": 9,
+    "word": "tomate",
+    "syllables": ["to", "ma", "te"],
+    "distractor": "lu"
+  },
+  {
+    "id": 10,
+    "word": "patata",
+    "syllables": ["pa", "ta", "ta"],
+    "distractor": "ga"
+  },
+  {
+    "id": 11,
+    "word": "zapato",
+    "syllables": ["za", "pa", "to"],
+    "distractor": "ce"
+  },
+  {
+    "id": 12,
+    "word": "botella",
+    "syllables": ["bo", "te", "lla"],
+    "distractor": "ru"
+  },
+  {
+    "id": 13,
+    "word": "manzana",
+    "syllables": ["man", "za", "na"],
+    "distractor": "ve"
+  },
+  {
+    "id": 14,
+    "word": "paloma",
+    "syllables": ["pa", "lo", "ma"],
+    "distractor": "du"
+  },
+  {
+    "id": 15,
+    "word": "gallina",
+    "syllables": ["ga", "lli", "na"],
+    "distractor": "so"
+  },
+  {
+    "id": 16,
+    "word": "cocina",
+    "syllables": ["co", "ci", "na"],
+    "distractor": "mi"
+  },
+  {
+    "id": 17,
+    "word": "corona",
+    "syllables": ["co", "ro", "na"],
+    "distractor": "pu"
+  },
+  {
+    "id": 18,
+    "word": "galleta",
+    "syllables": ["ga", "lle", "ta"],
+    "distractor": "mi"
+  },
+  {
+    "id": 19,
+    "word": "tormenta",
+    "syllables": ["tor", "men", "ta"],
+    "distractor": "ro"
+  },
+  {
+    "id": 20,
+    "word": "ceniza",
+    "syllables": ["ce", "ni", "za"],
+    "distractor": "po"
+  },
+  {
+    "id": 21,
+    "word": "madera",
+    "syllables": ["ma", "de", "ra"],
+    "distractor": "lu"
+  },
+  {
+    "id": 22,
+    "word": "semilla",
+    "syllables": ["se", "mi", "lla"],
+    "distractor": "to"
+  },
+  {
+    "id": 23,
+    "word": "bandera",
+    "syllables": ["ban", "de", "ra"],
+    "distractor": "fa"
+  },
+  {
+    "id": 24,
+    "word": "vacuna",
+    "syllables": ["va", "cu", "na"],
+    "distractor": "pu"
+  },
+  {
+    "id": 25,
+    "word": "fortuna",
+    "syllables": ["for", "tu", "na"],
+    "distractor": "me"
+  },
+  {
+    "id": 26,
+    "word": "tortuga",
+    "syllables": ["tor", "tu", "ga"],
+    "distractor": "ni"
+  },
+  {
+    "id": 27,
+    "word": "camello",
+    "syllables": ["ca", "me", "llo"],
+    "distractor": "ru"
+  },
+  {
+    "id": 28,
+    "word": "castillo",
+    "syllables": ["cas", "ti", "llo"],
+    "distractor": "va"
+  },
+  {
+    "id": 29,
+    "word": "caballo",
+    "syllables": ["ca", "ba", "llo"],
+    "distractor": "li"
+  },
+  {
+    "id": 30,
+    "word": "cuchillo",
+    "syllables": ["cu", "chi", "llo"],
+    "distractor": "mo"
+  },
+  {
+    "id": 31,
+    "word": "martillo",
+    "syllables": ["mar", "ti", "llo"],
+    "distractor": "pu"
+  },
+  {
+    "id": 32,
+    "word": "dinero",
+    "syllables": ["di", "ne", "ro"],
+    "distractor": "fe"
+  },
+  {
+    "id": 33,
+    "word": "salida",
+    "syllables": ["sa", "li", "da"],
+    "distractor": "bu"
+  },
+  {
+    "id": 34,
+    "word": "bebida",
+    "syllables": ["be", "bi", "da"],
+    "distractor": "sol"
+  },
+  {
+    "id": 35,
+    "word": "vestido",
+    "syllables": ["ves", "ti", "do"],
+    "distractor": "se"
+  },
+  {
+    "id": 36,
+    "word": "pantalón",
+    "syllables": ["pan", "ta", "lón"],
+    "distractor": "fe"
+  },
+  {
+    "id": 37,
+    "word": "jirafa",
+    "syllables": ["ji", "ra", "fa"],
+    "distractor": "pan"
+  },
+  {
+    "id": 38,
+    "word": "canario",
+    "syllables": ["ca", "na", "rio"],
+    "distractor": "gu"
+  },
+  {
+    "id": 39,
+    "word": "cebolla",
+    "syllables": ["ce", "bo", "lla"],
+    "distractor": "le"
+  },
+  {
+    "id": 40,
+    "word": "lechuga",
+    "syllables": ["le", "chu", "ga"],
+    "distractor": "so"
+  },
+  {
+    "id": 41,
+    "word": "naranja",
+    "syllables": ["na", "ran", "ja"],
+    "distractor": "li"
+  },
+  {
+    "id": 42,
+    "word": "durazno",
+    "syllables": ["du", "raz", "no"],
+    "distractor": "fa"
+  },
+  {
+    "id": 43,
+    "word": "helado",
+    "syllables": ["he", "la", "do"],
+    "distractor": "su"
+  },
+  {
+    "id": 44,
+    "word": "pescado",
+    "syllables": ["pes", "ca", "do"],
+    "distractor": "le"
+  },
+  {
+    "id": 45,
+    "word": "sopera",
+    "syllables": ["so", "pe", "ra"],
+    "distractor": "tu"
+  },
+  {
+    "id": 46,
+    "word": "cartera",
+    "syllables": ["car", "te", "ra"],
+    "distractor": "ju"
+  },
+  {
+    "id": 47,
+    "word": "bufanda",
+    "syllables": ["buf", "an", "da"],
+    "distractor": "sa"
+  },
+  {
+    "id": 48,
+    "word": "pulsera",
+    "syllables": ["pul", "se", "ra"],
+    "distractor": "di"
+  },
+  {
+    "id": 49,
+    "word": "rebelde",
+    "syllables": ["re", "bel", "de"],
+    "distractor": "zo"
+  },
+  {
+    "id": 50,
+    "word": "mochila",
+    "syllables": ["mo", "chi", "la"],
+    "distractor": "vo"
+  },
+  {
+    "id": 51,
+    "word": "pizarra",
+    "syllables": ["pi", "za", "rra"],
+    "distractor": "da"
+  },
+  {
+    "id": 52,
+    "word": "secreto",
+    "syllables": ["se", "cre", "to"],
+    "distractor": "gu"
+  },
+  {
+    "id": 53,
+    "word": "cometa",
+    "syllables": ["co", "me", "ta"],
+    "distractor": "ju"
+  },
+  {
+    "id": 54,
+    "word": "poeta",
+    "syllables": ["po", "e", "ta"],
+    "distractor": "ver"
+  },
+  {
+    "id": 55,
+    "word": "cohete",
+    "syllables": ["co", "he", "te"],
+    "distractor": "ci"
+  },
+  {
+    "id": 56,
+    "word": "gigante",
+    "syllables": ["gi", "gan", "te"],
+    "distractor": "ma"
+  },
+  {
+    "id": 57,
+    "word": "tiburón",
+    "syllables": ["ti", "bu", "rón"],
+    "distractor": "ja"
+  },
+  {
+    "id": 58,
+    "word": "paraguas",
+    "syllables": ["pa", "ra", "guas"],
+    "distractor": "pu"
+  },
+  {
+    "id": 59,
+    "word": "cabaña",
+    "syllables": ["ca", "ba", "ña"],
+    "distractor": "gu"
+  },
+  {
+    "id": 60,
+    "word": "montaña",
+    "syllables": ["mon", "ta", "ña"],
+    "distractor": "de"
+  },
+  {
+    "id": 61,
+    "word": "araña",
+    "syllables": ["a", "ra", "ña"],
+    "distractor": "ne"
+  },
+  {
+    "id": 62,
+    "word": "pestaña",
+    "syllables": ["pes", "ta", "ña"],
+    "distractor": "se"
+  },
+  {
+    "id": 63,
+    "word": "campana",
+    "syllables": ["cam", "pa", "na"],
+    "distractor": "cu"
+  },
+  {
+    "id": 64,
+    "word": "banana",
+    "syllables": ["ba", "na", "na"],
+    "distractor": "du"
+  },
+  {
+    "id": 65,
+    "word": "serpiente",
+    "syllables": ["ser", "pien", "te"],
+    "distractor": "mar"
+  },
+  {
+    "id": 66,
+    "word": "valiente",
+    "syllables": ["va", "lien", "te"],
+    "distractor": "so"
+  },
+  {
+    "id": 67,
+    "word": "paciente",
+    "syllables": ["pa", "cien", "te"],
+    "distractor": "ci"
+  },
+  {
+    "id": 68,
+    "word": "palacio",
+    "syllables": ["pa", "la", "cio"],
+    "distractor": "pe"
+  },
+  {
+    "id": 69,
+    "word": "ramaje",
+    "syllables": ["ra", "ma", "je"],
+    "distractor": "ru"
+  },
+  {
+    "id": 70,
+    "word": "peluca",
+    "syllables": ["pe", "lu", "ca"],
+    "distractor": "sol"
+  },
+  {
+    "id": 71,
+    "word": "cereza",
+    "syllables": ["ce", "re", "za"],
+    "distractor": "con"
+  },
+  {
+    "id": 72,
+    "word": "muñeca",
+    "syllables": ["mu", "ñe", "ca"],
+    "distractor": "li"
+  },
+  {
+    "id": 73,
+    "word": "garaje",
+    "syllables": ["ga", "ra", "je"],
+    "distractor": "con"
+  },
+  {
+    "id": 74,
+    "word": "paquete",
+    "syllables": ["pa", "que", "te"],
+    "distractor": "be"
+  },
+  {
+    "id": 75,
+    "word": "boleto",
+    "syllables": ["bo", "le", "to"],
+    "distractor": "fo"
+  },
+  {
+    "id": 76,
+    "word": "pasaje",
+    "syllables": ["pa", "sa", "je"],
+    "distractor": "vo"
+  },
+  {
+    "id": 77,
+    "word": "carrera",
+    "syllables": ["ca", "rre", "ra"],
+    "distractor": "con"
+  },
+  {
+    "id": 78,
+    "word": "comedor",
+    "syllables": ["co", "me", "dor"],
+    "distractor": "si"
+  },
+  {
+    "id": 79,
+    "word": "pañuelo",
+    "syllables": ["pa", "ñue", "lo"],
+    "distractor": "de"
+  },
+  {
+    "id": 80,
+    "word": "museo",
+    "syllables": ["mu", "se", "o"],
+    "distractor": "za"
+  },
+  {
+    "id": 81,
+    "word": "verano",
+    "syllables": ["ve", "ra", "no"],
+    "distractor": "fe"
+  },
+  {
+    "id": 82,
+    "word": "invierno",
+    "syllables": ["in", "vier", "no"],
+    "distractor": "ma"
+  },
+  {
+    "id": 83,
+    "word": "otoño",
+    "syllables": ["o", "to", "ño"],
+    "distractor": "lu"
+  },
+  {
+    "id": 84,
+    "word": "vencedor",
+    "syllables": ["ven", "ce", "dor"],
+    "distractor": "no"
+  },
+  {
+    "id": 85,
+    "word": "gaveta",
+    "syllables": ["ga", "ve", "ta"],
+    "distractor": "can"
+  },
+  {
+    "id": 86,
+    "word": "libreta",
+    "syllables": ["li", "bre", "ta"],
+    "distractor": "re"
+  },
+  {
+    "id": 87,
+    "word": "motivo",
+    "syllables": ["mo", "ti", "vo"],
+    "distractor": "mi"
+  },
+  {
+    "id": 88,
+    "word": "domingo",
+    "syllables": ["do", "min", "go"],
+    "distractor": "mu"
+  },
+  {
+    "id": 89,
+    "word": "pecado",
+    "syllables": ["pe", "ca", "do"],
+    "distractor": "le"
+  },
+  {
+    "id": 90,
+    "word": "remera",
+    "syllables": ["re", "me", "ra"],
+    "distractor": "de"
+  },
+  {
+    "id": 91,
+    "word": "ropero",
+    "syllables": ["ro", "pe", "ro"],
+    "distractor": "vo"
+  },
+  {
+    "id": 92,
+    "word": "figura",
+    "syllables": ["fi", "gu", "ra"],
+    "distractor": "ti"
+  },
+  {
+    "id": 93,
+    "word": "cepillo",
+    "syllables": ["ce", "pi", "llo"],
+    "distractor": "si"
+  },
+  {
+    "id": 94,
+    "word": "batido",
+    "syllables": ["ba", "ti", "do"],
+    "distractor": "fi"
+  },
+  {
+    "id": 95,
+    "word": "bonito",
+    "syllables": ["bo", "ni", "to"],
+    "distractor": "fe"
+  },
+  {
+    "id": 96,
+    "word": "festival",
+    "syllables": ["fes", "ti", "val"],
+    "distractor": "di"
+  },
+  {
+    "id": 97,
+    "word": "vistazo",
+    "syllables": ["vis", "ta", "zo"],
+    "distractor": "fa"
+  },
+  {
+    "id": 98,
+    "word": "pegaso",
+    "syllables": ["pe", "ga", "so"],
+    "distractor": "ju"
+  },
+  {
+    "id": 99,
+    "word": "espejo",
+    "syllables": ["es", "pe", "jo"],
+    "distractor": "lu"
+  },
+  {
+    "id": 100,
+    "word": "juguete",
+    "syllables": ["ju", "gue", "te"],
+    "distractor": "ru"
+  }
+]
