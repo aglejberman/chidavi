@@ -51,7 +51,7 @@ beforeEach(() => {
 describe('interfaz', () => {
   it('muestra el inicio con los dos modos de juego', () => {
     mount();
-    expect(root.querySelector('h1')?.textContent).toBe('Chidavi');
+    expect(root.querySelector('h1')?.textContent).toBe('Silabeo');
     expect(button('Jugar solo')).toBeTruthy();
     expect(button('Jugar con amigos')).toBeTruthy();
   });
@@ -61,7 +61,7 @@ describe('interfaz', () => {
     button('Cómo se juega').click();
     expect(root.querySelector('h1')?.textContent).toBe('Cómo se juega');
     button('Entendido').click();
-    expect(root.querySelector('h1')?.textContent).toBe('Chidavi');
+    expect(root.querySelector('h1')?.textContent).toBe('Silabeo');
   });
 
   it('en amigos muestra el código y valida el que se escribe', () => {

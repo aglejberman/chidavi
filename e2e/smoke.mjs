@@ -48,7 +48,7 @@ async function solutionClicks() {
 try {
   // --- Inicio y ayuda
   await page.goto(BASE_URL);
-  await page.getByRole('heading', { name: 'Chidavi' }).waitFor();
+  await page.getByRole('heading', { name: 'Silabeo' }).waitFor();
   await shot('1-inicio');
   await page.getByRole('button', { name: /Cómo se juega/ }).click();
   await shot('2-ayuda');
@@ -145,7 +145,7 @@ try {
   await page.evaluate(() => navigator.serviceWorker.ready);
   await context.setOffline(true);
   await page.reload();
-  await page.getByRole('heading', { name: 'Chidavi' }).waitFor();
+  await page.getByRole('heading', { name: 'Silabeo' }).waitFor();
   await context.setOffline(false);
 
   assert.deepEqual(errors, [], `errores en consola: ${errors.join(' | ')}`);

@@ -1,11 +1,10 @@
-# Chidavi
+# Silabeo
 
 Juego de palabras por sílabas. En cada palabra se muestran **cuatro sílabas: tres forman la
 palabra y una sobra**. Hay que descubrir las diez palabras de la lista en el menor tiempo
 posible, solo o entre amigos que juegan la misma lista desde sus teléfonos.
 
-El nombre son las tres sílabas de «Davichi» desordenadas, como el propio juego. El juego lo
-pensó David.
+El juego lo pensó David («Davichi»).
 
 Es una **PWA** (aplicación web instalable): funciona en cualquier móvil desde el navegador,
 se puede agregar a la pantalla de inicio y sigue funcionando sin conexión. No tiene servidor.

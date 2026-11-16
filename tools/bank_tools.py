@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Herramientas para mantener el banco de palabras de Chidavi.
+"""Herramientas para mantener el banco de palabras de Silabeo.
 
 Subcomandos:
   validate  Comprueba que cada entrada de src/data/bank.json tenga UNA sola solución:

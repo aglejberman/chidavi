@@ -3,7 +3,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // Rutas relativas (`base: './'`) para que la app funcione tanto en la raíz de un
 // dominio como en un subdirectorio, como ocurre en GitHub Pages
-// (https://usuario.github.io/chidavi/).
+// (https://usuario.github.io/<repositorio>/).
 export default defineConfig({
   base: './',
   plugins: [
@@ -11,8 +11,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icons/apple-touch-icon.png'],
       manifest: {
-        name: 'Chidavi',
-        short_name: 'Chidavi',
+        name: 'Silabeo',
+        short_name: 'Silabeo',
         description: 'Cuatro sílabas, una sobra. Diez palabras por descubrir.',
         lang: 'es',
         start_url: './',

@@ -1,7 +1,7 @@
 {
-  "name": "chidavi",
+  "name": "silabeo",
   "version": "0.1.0",
-  "description": "Chidavi: juego de palabras por sílabas (PWA)",
+  "description": "Silabeo: juego de palabras por sílabas (PWA)",
   "scripts": {
     "test": "vitest run",
     "dev": "vite",

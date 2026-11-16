@@ -1,4 +1,4 @@
-# Reglas de Chidavi
+# Reglas de Silabeo
 
 ## Objetivo
 
