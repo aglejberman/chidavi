@@ -369,6 +369,62 @@ button:disabled {
   line-height: 1.4;
 }
 
+/* --- Logotipo ---------------------------------------------------------------- */
+
+.logo {
+  display: block;
+}
+
+.logo--hero {
+  width: 120px;
+  height: 120px;
+}
+
+.logo--small {
+  width: 22px;
+  height: 22px;
+}
+
+.logo__tile {
+  fill: var(--color-accent);
+}
+
+.logo__tile--odd {
+  fill: var(--color-danger);
+}
+
+/* En la portada las fichas aparecen una tras otra; la rosa llega la última y se
+   mece un poco, como la sílaba que sobra. */
+.logo--hero .logo__tile {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: logo-pop 520ms cubic-bezier(0.3, 1.5, 0.5, 1) both;
+}
+
+.logo--hero .logo__tile--2 {
+  animation-delay: 120ms;
+}
+
+.logo--hero .logo__tile--3 {
+  animation-delay: 240ms;
+}
+
+.logo--hero .logo__tile--4 {
+  animation-delay: 360ms;
+}
+
+@keyframes logo-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 /* --- Ayuda ------------------------------------------------------------------- */
 
 .step__title {
@@ -502,6 +558,9 @@ button:disabled {
 }
 
 .wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   color: var(--color-accent);
   font-size: 22px;
   letter-spacing: 1px;

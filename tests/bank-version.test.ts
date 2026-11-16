@@ -14,6 +14,7 @@ import bankData from '../src/data/bank.json';
  */
 const FINGERPRINTS: Readonly<Record<number, string>> = {
   1: 'b5324155da16f685',
+  2: 'da4e06ff8fee53c9',
 };
 
 function fingerprint(data: unknown): string {

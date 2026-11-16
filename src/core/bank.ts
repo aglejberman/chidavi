@@ -5,7 +5,7 @@ import type { WordCase } from './types';
  * o el orden del banco: forma parte del código de lista y evita que dos teléfonos con
  * bancos distintos crean que juegan la misma lista.
  */
-export const BANK_VERSION = 1;
+export const BANK_VERSION = 2;
 
 export class BankValidationError extends Error {
   constructor(public readonly problems: readonly string[]) {

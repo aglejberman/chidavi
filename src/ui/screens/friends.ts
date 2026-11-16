@@ -1,5 +1,6 @@
 import { html } from 'lit-html';
 import type { TemplateResult } from 'lit-html';
+import { GAME_NAME } from '../../brand';
 import { CODE_LENGTH } from '../../core/code';
 import type { FriendsNotice } from '../../app/state';
 import { copyText, shareText } from '../../platform/share';
@@ -20,7 +21,7 @@ function noticeText(notice: FriendsNotice | null, code: string): string {
         case 'characters':
           return 'El código solo usa letras y números.';
         case 'checksum':
-          return 'Código no válido o de otra versión de Chidavi.';
+          return `Código no válido o de otra versión de ${GAME_NAME}.`;
       }
   }
 }
@@ -40,8 +41,8 @@ export function friendsScreen({
   const share = async (): Promise<void> => {
     const url = `${location.origin}${location.pathname}`;
     const shared = await shareText(
-      'Chidavi',
-      `Juega conmigo a Chidavi. Código de la lista: ${code}\n${url}`,
+      GAME_NAME,
+      `Juega conmigo a ${GAME_NAME}. Código de la lista: ${code}\n${url}`,
     );
     if (!shared) await copy();
   };

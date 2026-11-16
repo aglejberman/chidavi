@@ -5,6 +5,8 @@ import { areSlotsFull, currentWord, tileDisplayOrder, totalMs } from '../../core
 import type { GameState } from '../../core/game';
 import { formatClock } from '../../core/format';
 import { SKIP_PENALTY_SECONDS, SLOT_COUNT, WORDS_PER_GAME } from '../../core/rules';
+import { GAME_NAME } from '../../brand';
+import { logoMark } from '../components/logo';
 import { iconBack, iconRotate, iconTrash } from '../components/icons';
 import type { ScreenContext } from '../context';
 
@@ -56,7 +58,7 @@ export function playScreen({ state, dispatch, clock }: ScreenContext): TemplateR
         >
           ${iconBack}
         </button>
-        <span class="wordmark">Chidavi</span>
+        <span class="wordmark">${logoMark('small')}${GAME_NAME}</span>
         <button
           class=${classMap({ chip: true, 'chip--skip': true, 'chip--armed': armed })}
           type="button"

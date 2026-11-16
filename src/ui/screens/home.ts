@@ -1,9 +1,9 @@
 import { html } from 'lit-html';
 import type { TemplateResult } from 'lit-html';
 import type { ScreenContext } from '../context';
+import { GAME_NAME } from '../../brand';
 import { iconHelp } from '../components/icons';
-
-const LOGO_SYLLABLES = ['chi', 'da', 'vi'] as const;
+import { logoMark } from '../components/logo';
 
 export function homeScreen({
   dispatch,
@@ -25,10 +25,8 @@ export function homeScreen({
       </div>
 
       <div class="hero">
-        <div class="tile-row" aria-hidden="true">
-          ${LOGO_SYLLABLES.map((syllable) => html`<span class="tile tile--hero">${syllable}</span>`)}
-        </div>
-        <h1 class="title">Chidavi</h1>
+        ${logoMark('hero')}
+        <h1 class="title">${GAME_NAME}</h1>
         <p class="subtitle">
           Cuatro sílabas, una sobra.<br />Diez palabras por descubrir.
         </p>
